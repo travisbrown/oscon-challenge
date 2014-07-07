@@ -164,6 +164,9 @@ sbt "run sample/finagle/"
 The correct output for the sample archive is included in
 `sample/finagle-output.txt`.
 
+We're happy to look at programs that aren't built by SBT (or programs written in
+languages other than Scala), but we can't promise they'll be evaluated!
+
 Just tweet or DM a link to a [gist](https://gist.github.com/) or GitHub project
 to [@TwitterOSS](https://twitter.com/TwitterOSS) before midnight on Tuesday,
 July 22. You may assume the `build.sbt` file in this repository, or you can use
