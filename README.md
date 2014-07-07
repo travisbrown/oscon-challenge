@@ -117,7 +117,7 @@ IDs.
 Details and gotchas
 -------------------
 
-Only include the users in the `entity_mentions` field when you're adding
+* Only include the users in the `entity_mentions` field when you're adding
 co-occurence links. This means that you won't be included in your own tweets.
 For example, in the [@finagle](https://twitter.com/finagle) tweet above,
 we'd increment the links between [@twitter](https://twitter.com/twitter),
@@ -126,29 +126,29 @@ we'd increment the links between [@twitter](https://twitter.com/twitter),
 [@nest](https://twitter.com/nest), but not [@finagle](https://twitter.com/finagle)
 itself.
 
-Note also that you may still be the most central user in your own network if
+* Note also that you may still be the most central user in your own network if
 you've retweeted a lot of @-replies directed at you (or if you spend a lot of
 time talking about yourself in the third person).
 
-It's possible to mention a user multiple times in a single tweet—in these cases
+* It's possible to mention a user multiple times in a single tweet—in these cases
 you should update your counts as if the user had only been mentioned once.
 
-Because Twitter screen names can change, you should use the numeric user ID to
+* Because Twitter screen names can change, you should use the numeric user ID to
 keep track of users. This identifier
 [can be a very large number](https://blog.twitter.com/2013/test-accounts-user-ids-greater-32-bits)—you
 shouldn't assume it can fit in a 32-bit integer. Visiting
 `https://twitter.com/account/redirect_by_id/123456789` will take you to the
 account for the user with ID 123456789.
 
-In the case of ties, sort by user ID, with smaller values coming first. For
+* In the case of ties, sort by user ID, with smaller values coming first. For
 example, if both [@kanyewest](https://twitter.com/kanyewest) (181862144) and
 [@TwitterOSS](https://twitter.com/TwitterOSS) (376825877) have a degree of 29 in
 your network, Kanye wins.
 
-The files in the `data/js/tweets/` directory are JavaScript files, not JSON, so
+* The files in the `data/js/tweets/` directory are JavaScript files, not JSON, so
 you'll need to clean them up (a very little bit) before parsing them as JSON.
 
-You may assume that any of the files in the `data/js/tweets` directory will fit
+* You may assume that any of the files in the `data/js/tweets` directory will fit
 in memory.
 
 Setup and submissions
