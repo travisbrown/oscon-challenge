@@ -1,3 +1,6 @@
+OSCON 2014 Twitter Challenge
+============================
+
 Introduction
 ------------
 
@@ -47,6 +50,8 @@ repository in the `sample` directory) or the [@TwitterOSS](https://twitter.com/T
 archive, which is [also available on GitHub](https://github.com/twitter/twitteross-archive).
 All submissions will be evaluated against the [@TwitterOSS](https://twitter.com/TwitterOSS)
 account, but we encourage you to develop against your own.
+
+See the `sample` directory for an example of correctly formatted output.
 
 ### Part 1: Degree
 
@@ -160,8 +165,16 @@ The correct output for the sample archive is included in
 `sample/finagle-output.txt`.
 
 Just tweet or DM a link to a [gist](https://gist.github.com/) or GitHub project
-to [@TwitterOSS](https://twitter.com/TwitterOSS). You may assume the `build.sbt`
-file in this repository, or you can use your own—just be sure to include it with
-your code if you do.
+to [@TwitterOSS](https://twitter.com/TwitterOSS) before midnight on Tuesday,
+July 22. You may assume the `build.sbt` file in this repository, or you can use
+your own—just be sure to include it with your code if you do.
 
 Good luck, have fun, and let us know if you have questions!
+
+Licensing
+---------
+
+© Copyright 2014 Twitter, Inc. The contents of this repository are available
+under the
+[Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/)
+(CC BY).
