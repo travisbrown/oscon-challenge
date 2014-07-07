@@ -1,5 +1,5 @@
-OSCON 2014 Twitter Challenge
-============================
+Twitter Challenge at OSCON 2014
+===============================
 
 [Co-occurrence networks](http://en.wikipedia.org/wiki/Co-occurrence_networks)
 are often used to infer social networks from mentions of names in a set of
@@ -29,3 +29,4 @@ Twitter swag!
 
 Let us know if you have any questions, either in person at the Twitter OSS booth
 or at [@TwitterOSS](https://twitter.com/TwitterOSS)!
+

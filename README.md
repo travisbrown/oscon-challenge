@@ -1,5 +1,5 @@
-OSCON 2014 Twitter Challenge
-============================
+Twitter Challenge at OSCON 2014
+===============================
 
 Introduction
 ------------
