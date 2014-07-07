@@ -158,7 +158,7 @@ Your program should expect a single command-line argument: the path to the root
 of the unzipped archive. For example, we should be able to run it like this:
 
 ``` bash
-sbt "run sample/finagle"
+sbt "run sample/finagle/"
 ```
 
 The correct output for the sample archive is included in
